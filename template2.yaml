@@ -1,0 +1,11 @@
+template: Hello, %s!
+defaultName: Stranger
+ageString: My age is %s!
+age: 42
+server:
+  applicationConnectors:
+    - type: http
+      port: 9090
+  adminConnectors:
+    - type: http
+      port: 9091
